@@ -5,6 +5,7 @@ production stylesheet in assets/built/screen.css using gulp dev
 
 */
 
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono&display=swap');
 
 /* Lib - Local component imports
 /* ---------------------------------------------------------- */
@@ -24,8 +25,8 @@ production stylesheet in assets/built/screen.css using gulp dev
 /* Main - Theme styles
 /* ---------------------------------------------------------- */
 
-body {
-    font-family: 'Muli', sans-serif;
+body { 
+    font-family: 'IBM Plex Mono', monospace;
     background: var(--color-bg);
     transition: background 0.3s ease-out;
     transition-delay: 0.25;

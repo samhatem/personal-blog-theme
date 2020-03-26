@@ -1,12 +1,24 @@
-{{!< default}}
+<!DOCTYPE html>
+<html lang="{{@site.lang}}">
+{{> "meta"}}
+<body class="{{body_class}}">
 
-<div class="home">
-    <div class="intro-container">
-        <span class="site-title">
-          {{@site.title}}
-        </span>
-        <span>
-          {{@site.description}}
-        </span>
-    </div>
-</div>
+   <div class="intro-wrapper">
+       <div class="intro-container">
+           <span class="site-title">
+               {{@site.title}}
+           </span>
+           <span class="site-description">
+               {{@site.description}}
+           </span>
+       </div>
+   </div>
+
+   <div class="nav-container">
+       {{navigation class="home"}}
+   </div>
+
+   {{> "footer"}}
+
+</body>
+</html>

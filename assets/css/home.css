@@ -1,0 +1,32 @@
+/* Home styles
+/*------------------------------------------------- */
+
+.intro-wrapper {
+    height: 90vh;
+}
+
+.intro-container {
+    padding: 30vh 0 0 10vw;
+}
+
+span.site-title {
+    font-size: 200%;
+    font-weight: 100;
+}
+
+.site-description {
+    padding-left: 25vw;
+}
+
+
+/* Navigation
+/*------------------------------------------------- */
+
+.nav.home {
+    justify-content: space-evenly;
+    margin: 0 10vw;
+}
+
+.nav-home.nav-current {
+    display: none;
+}
